@@ -1,0 +1,13 @@
+$TTL 38400
+
+@	IN	SOA	servidor01.moodle.dam. correorafa.moodle.dam. (
+                        2014092901
+                        28800
+                        3600
+                        604800
+                        38400 )
+
+@ IN NS servidor01.moodle.dam.
+
+servidor01.moodle.dam. IN A 192.168.1.116
+www.moodle.dam. IN CNAME servidor01.moodle.dam.
